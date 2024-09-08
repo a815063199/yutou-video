@@ -1,0 +1,7 @@
+{
+  "navigationBarTitleText": "芋头视频水印",
+  "usingComponents": {
+    "u-q-r-code": "../../uni_modules/Sansnn-uQRCode/components/uqrcode/uqrcode",
+    "u-button": "../../uni_modules/uview-plus/components/u-button/u-button"
+  }
+}

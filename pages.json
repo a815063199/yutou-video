@@ -1,0 +1,43 @@
+{
+	"pages": [ //pages数组中第一项表示应用启动页，参考：https://uniapp.dcloud.io/collocation/pages
+		{
+			"path": "pages/index/index",
+			"style": {
+				"navigationBarTitleText": "芋头视频水印"
+			}
+		},
+		{
+			"path" : "pages/addwm/addwm",
+			"style" : 
+			{
+				"navigationBarTitleText" : "视频加水印"
+			}
+		},
+		{
+			"path" : "pages/delwm/delwm",
+			"style" : 
+			{
+				"navigationBarTitleText" : "视频去水印"
+			}
+		},
+		{
+			"path" : "pages/tasklist/tasklist",
+			"style" : 
+			{
+				"navigationBarTitleText" : "任务列表"
+			}
+		}
+	],
+	"easycom": {
+		"custom": {
+			"^u-(.*)": "@/uni_modules/uview-plus/components/u-$1/u-$1.vue"
+		}
+	},
+	"globalStyle": {
+		"navigationBarTextStyle": "black",
+		"navigationBarTitleText": "uni-app",
+		"navigationBarBackgroundColor": "#F8F8F8",
+		"backgroundColor": "#F8F8F8"
+	},
+	"uniIdRouter": {}
+}
